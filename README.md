@@ -7,3 +7,8 @@
 2. From linux to linux using ssh <username@ip address> and entering a password from there.
 
 
+**Manage files from the command line**
+
+
+
+
