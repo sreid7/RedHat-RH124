@@ -29,6 +29,10 @@ check to see if the file was created using ls -ltr to list all directories and f
 
 cp jerry clark = copies an existing file and naming it clark
 
+vi = creates a file that can be edited. but do not write anything in it because it can be a problem to get out. Press SHIFT WQ! and ENTER to exit out. 
+
+
+
 
 
 
