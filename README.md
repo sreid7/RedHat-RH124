@@ -9,6 +9,10 @@
 
 **Manage files from the command line**
 
+ls -l = list all files 
+d = directory 
+cd / = home 
+cd .. = back climbing through directory
 
 
 
