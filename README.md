@@ -41,7 +41,7 @@ cp = copy a file and name it something
 
 echo = inserting something into the file, ex. (echo "micheal is one" > micheal). This will insert this phrase into the micheal file
 
-cat = display what is in the file ex. cat micheal = misheal is one
+cat = display what is in the file ex. cat micheal = micheal is one
 
 
 
