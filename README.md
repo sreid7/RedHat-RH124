@@ -43,6 +43,11 @@ echo = inserting something into the file, ex. (echo "micheal is one" > micheal).
 
 cat = display what is in the file ex. cat micheal = micheal is one
 
+cp micheal /tmp (example, this will copy the file and place it into the tmp directory).
+
+rm = remove files and directories, example (rm apoho), check to see if it is removed ls -ltr = list of files and directories to see if the files is gone
+
+mv = rename and move files and directories (example, mv david putty, this renames the file). But also keeps the content. To move the file to another location use (mv putty /tmp)
 
 
 
