@@ -19,11 +19,18 @@ cd .. = back climbing through directory
 
 -------------------------
 
+to create a file, you must first go into the root, example. cd home, whoami, then cd into root, then touch (whatever file you want to create)
+
 touch jerry = creates a file
 
 touch krammer = creates a file 
 
-check to see if the file was created using ls -l to list all directories and files in alphabetical order.
+check to see if the file was created using ls -ltr to list all directories and files in alphabetical order based on time and reverse order (so the newest one on the bottom).
+
+cp jerry clark = copies an existing file and naming it clark
+
+
+
 
 
 
