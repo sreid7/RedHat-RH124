@@ -17,11 +17,13 @@ cd / = home
 
 cd .. = back climbing through directory
 
+-------------------------
+
 touch jerry = creates a file
 
 touch krammer = creates a file 
 
-
+check to see if the file was created using ls -l to list all directories and files in alphabetical order.
 
 
 
