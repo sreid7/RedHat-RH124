@@ -17,7 +17,8 @@ cd / = home
 
 cd .. = back climbing through directory
 
-touch jerry = creates a file 
+touch jerry = creates a file
+
 touch krammer = creates a file 
 
 
