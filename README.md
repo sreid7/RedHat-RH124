@@ -9,13 +9,18 @@
 
 **Manage files from the command line**
 
-ls -l = list all files 
+ls -l = list all files, whoami = (self - directory I am in), pwd = what directory I am in 
 
 d = directory 
 
 cd / = home 
 
 cd .. = back climbing through directory
+
+touch jerry = creates a file 
+touch krammer = creates a file 
+
+
 
 
 
