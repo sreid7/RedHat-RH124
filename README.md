@@ -76,9 +76,9 @@ rmdir = allows you to delete a directory
 
  hard = deleting renaming or moving the original file will not affect the hard link
 
- ln 
+ ln (hard link)
 
- ln -s
+ ln -s (soft link)
 
 ls -ltri = The ls -ltri command in Linux combines multiple options for listing files in a directory with specific details. Here's what each flag means:
 
