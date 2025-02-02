@@ -11,6 +11,8 @@
 
 ls -l = list all files, whoami = (self - directory I am in), pwd = what directory I am in 
 
+ls -la = list all files and hidden files.
+
 d = directory 
 
 cd / = home 
@@ -85,7 +87,11 @@ ls -ltri = The ls -ltri command in Linux combines multiple options for listing f
 -r → Reverses the sorting order (oldest first instead of newest).
 -i → Shows the inode number of each file (useful for identifying files uniquely within a filesystem).
 
+ex. telnet localhost (error message can be sent to a file) ex. send to a file named "errorfile". Ex. telnet localhost 2> errorfile. 
 
+**Pipe**
+
+ex. cd /etc , then ls -ltr (creates a very long output of files and directories), then instead you can use ls -ltr | more, this displays the information by pages. You can tap the space bar to view each page.
 
 
 
