@@ -49,6 +49,12 @@ rm = remove files and directories, example (rm apoho), check to see if it is rem
 
 mv = rename and move files and directories (example, mv david putty, this renames the file). But also keeps the content. To move the file to another location use (mv putty /tmp)
 
+mkdir = allows you to create a directory and the color of the directory will be blue lettering
+
+rmdir = allows you to delete a directory 
+
+
+
 
 
 
