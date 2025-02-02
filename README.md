@@ -39,7 +39,7 @@ mkdir = making a directory
 
 cp = copy a file and name it something
 
-echo = inserting something into the file, ex. (echo "micheal is one" > micheal). This will insert this phrase into the micheal file
+echo = inserting something into the file, ex. (echo "micheal is one" > micheal). This will insert this phrase into the micheal file. Use >> to insert more information into the file after creation.
 
 cat = display what is in the file ex. cat micheal = micheal is one
 
@@ -84,6 +84,8 @@ ls -ltri = The ls -ltri command in Linux combines multiple options for listing f
 -t → Sorts files by modification time (newest first).
 -r → Reverses the sorting order (oldest first instead of newest).
 -i → Shows the inode number of each file (useful for identifying files uniquely within a filesystem).
+
+
 
 
 
