@@ -53,10 +53,37 @@ mkdir = allows you to create a directory and the color of the directory will be 
 
 rmdir = allows you to delete a directory 
 
+- USE up or down arrow key to navigate past commands. (TIP)
+
+ rm - Rf = forcefully removes subdirectories and its contents as well.
+
+ Root = (su -) you must become root to have permission to do all functions on linux
+
+ Exit Root = simply type "exit" will bring tyou back the normal user account.
+
+ chgrp = change group to have access to a file or directory (ex. chgrp ricky reliable file)
+
+ chown = change ownership and group at the same time (ex. chown falls:falls grimizod), this allows the owner and group to be changed at the same time.
+
+ **Soft and Hard Links**
 
 
+ inode = pointer or number of a file on a hard disk 
 
+ soft link = link will be removed if file is removed or renamed
 
+ hard = deleting renaming or moving the original file will not affect the hard link
+
+ ln 
+
+ ln -s
+
+ls -ltri = The ls -ltri command in Linux combines multiple options for listing files in a directory with specific details. Here's what each flag means:
+
+-l → Long format (shows file permissions, owner, size, modification time, etc.).
+-t → Sorts files by modification time (newest first).
+-r → Reverses the sorting order (oldest first instead of newest).
+-i → Shows the inode number of each file (useful for identifying files uniquely within a filesystem).
 
 
 
