@@ -95,6 +95,14 @@ ex. cd /etc , then ls -ltr (creates a very long output of files and directories)
 
 
 
+**Input and Output Redirects**
+
+ex. ls -la > micheal (content will be redirected into the micheal file)
+
+one (>) will intially will create content, but will delete the content or overwrite the content when it is used a second time. To add additional content - a double greater sign (>>) must be used.
+
+
+
 
 
 
