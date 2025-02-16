@@ -101,7 +101,9 @@ ex. ls -la > micheal (content will be redirected into the micheal file)
 
 one (>) will intially will create content, but will delete the content or overwrite the content when it is used a second time. To add additional content - a double greater sign (>>) must be used.
 
+-----
 
+ls -l /root 2> errorfile (this command routes the error which is classfied as 2 to a file called errorfile)
 
 
 
