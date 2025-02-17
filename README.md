@@ -103,9 +103,12 @@ one (>) will intially will create content, but will delete the content or overwr
 
 -----
 
-ls -l /root 2> errorfile (this command routes the error which is classfied as 2 to a file called errorfile)
+ls -l /root 2> errorfile (this command routes the error which is classfied as 2 to a file called errorfile) - (Useful for automation)
 
-udemy 52:16 Red Hat Course
+
+
+
+udemy 54:22 Red Hat Course
 
 
 
