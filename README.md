@@ -105,6 +105,27 @@ one (>) will intially will create content, but will delete the content or overwr
 
 ls -l /root 2> errorfile (this command routes the error which is classfied as 2 to a file called errorfile) - (Useful for automation)
 
+RedHatVM ~]$ telnet localhost 2> errorfile
+Install package 'telnet' to provide command 'telnet'? [N/y] y
+
+ * Waiting in queue... 
+ * Loading list of packages.... 
+The following packages have to be installed:
+ telnet-1:0.17-85.el9.x86_64	The client program for the Telnet remote login protocol
+Proceed with changes? [N/y] y
+
+
+ * Waiting in queue... 
+ * Waiting for authentication... 
+RedHatVM ~]$ cat errorfile
+bash: telnet: command not found...
+Failed to install packages: Failed to obtain authentication.
+RedHatVM ~]$ 
+
+
+
+
+
 
 
 
