@@ -89,11 +89,6 @@ ls -ltri = The ls -ltri command in Linux combines multiple options for listing f
 
 ex. telnet localhost (error message can be sent to a file) ex. send to a file named "errorfile". Ex. telnet localhost 2> errorfile. 
 
-**Pipe**
-
-ex. cd /etc , then ls -ltr (creates a very long output of files and directories), then instead you can use ls -ltr | more, this displays the information by pages. You can tap the space bar to view each page.
-
-
 
 **Input and Output Redirects**
 
@@ -123,13 +118,26 @@ Failed to install packages: Failed to obtain authentication.
 RedHatVM ~]$ 
 
 
+**Pipe**
+
+ex. cd /etc , then ls -ltr (creates a very long output of files and directories), then instead you can use ls -ltr | more, this displays the information by pages. You can tap the space bar to view each page.
+
+to view the last line from the information of a command, (ls -l | tail -1)
 
 
+**Help Commands**
+
+1. whois (command)
+
+2. (command) --help
+
+3. man (command)
 
 
+**Linux File Editor**
 
 
-udemy 54:22 Red Hat Course
+udemy Linux File Editor - Red Hat Course
 
 
 
