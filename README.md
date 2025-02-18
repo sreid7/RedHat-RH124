@@ -137,7 +137,7 @@ to view the last line from the information of a command, (ls -l | tail -1)
 **Linux File Editor**
 
 
-udemy Linux File Editor - Red Hat Course
+Continue Course with > udemy Linux File Editor - Red Hat Course
 
 
 
