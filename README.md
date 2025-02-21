@@ -150,6 +150,13 @@ To see the file, use cat myfirstfile
 To save the file a different way, type "vi myfirstfile" to get into the file. Type another word within the file and click "ESC, SHIFT (for :), wq! 
 
 
+To delete an entire line, type "d".
+
+To undo deletion or any changes, type "u".
+
+
+
+
 
 
 
