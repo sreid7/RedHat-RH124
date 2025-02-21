@@ -147,7 +147,7 @@ To save the file hit ESCAPE, and SHIFT Z Z.
 
 To see the file, use cat myfirstfile
 
-To save the file a different way, type "vi myfirstfile" to get into the file. Type another word within the file and click  
+To save the file a different way, type "vi myfirstfile" to get into the file. Type another word within the file and click "ESC, SHIFT (for :), wq! 
 
 
 
