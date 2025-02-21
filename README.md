@@ -139,6 +139,16 @@ to view the last line from the information of a command, (ls -l | tail -1)
 
 Continue Course with > udemy Linux File Editor - Red Hat Course
 
+vi myfirstfile, then click ENTER.
+
+click "i" for INSERT mode. Now the file can be edited. Type anything into the file. 
+
+To save the file hit ESCAPE, and SHIFT Z Z. 
+
+To see the file, use cat myfirstfile
+
+To save the file a different way, type "vi myfirstfile" to get into the file. Type another word within the file and click  
+
 
 
 
