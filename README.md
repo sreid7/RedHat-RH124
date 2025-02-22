@@ -151,7 +151,11 @@ To save the file a different way, type "vi myfirstfile" to get into the file. Ty
 
 To delete a letter, type "x".
 
+To replace a letter(s), type "r" on top of the letter you want to replace.
+
 To delete an entire line, type "d".
+
+To create a new line, type "o".
 
 To undo deletion or any changes, type "u".
 
