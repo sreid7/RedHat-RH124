@@ -173,7 +173,9 @@ useradd, groupadd, userdel, groupdel, usermod
 
 /etc/passwd, /etc/group, /etc/shadow
 
+Example:
 
+useradd -g superheros -s /bin/bash -c "user description" -m -d /home/spiderman spiderman
 
 
 
