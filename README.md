@@ -167,21 +167,11 @@ To search for a word while in the vi file, for example - type "/lesson". This wi
 
 --Commands-- 
 
-.useradd --.groupadd
-
-.userdel
-
-.groupdel
-
-.usermod
+useradd, groupadd, userdel, groupdel, usermod
 
 --Files--
 
-./etc/passwd
-
-./etc/group
-
-./etc/shadow
+/etc/passwd, /etc/group, /etc/shadow
 
 
 
