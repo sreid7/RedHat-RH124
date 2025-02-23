@@ -159,9 +159,31 @@ To create a new line, type "o".
 
 To undo deletion or any changes, type "u".
 
+To search for a word whle not in the vi file, for example - type "grep lesson myfirstfile", to see the word lesson in the file. (This works when you are not currently inside the file - normal command.)
 
+To search for a word while in the vi file, for example - type "/lesson". This will highlight a word within the vi file that you are looking for.
 
+**User Account Management**
 
+--Commands-- 
+
+.useradd
+
+.groupadd
+
+.userdel
+
+.groupdel
+
+.usermod
+
+--Files--
+
+./etc/passwd
+
+./etc/group
+
+./etc/shadow
 
 
 
