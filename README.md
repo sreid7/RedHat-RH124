@@ -177,6 +177,6 @@ Example:
 
 useradd -g superheros -s /bin/bash -c "user description" -m -d /home/spiderman spiderman
 
-Must login to "root" to be able to configure users and groups.
+Must login to "root", (type "su -" and enter password) to be able to configure users and groups.
 
 
