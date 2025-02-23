@@ -167,9 +167,7 @@ To search for a word while in the vi file, for example - type "/lesson". This wi
 
 --Commands-- 
 
-.useradd
-
-.groupadd
+.useradd --.groupadd
 
 .userdel
 
