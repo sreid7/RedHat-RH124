@@ -179,4 +179,24 @@ useradd -g superheros -s /bin/bash -c "user description" -m -d /home/spiderman s
 
 Must login to "root", (type "su -" and enter password) to be able to configure users and groups.
 
+useradd spiderman (created user)
+
+Check user created, type (id spiderman), also to verify, go to home directory and type ls -l, to see if the user was created.
+
+groupadd superheros
+
+Check group, type "cat /etc/group"
+
+Go delete user, type userdel -r spiderman, r means to remove the user's home directory and mail spool.
+
+usermod -G superheros spiderman, -G adds the user spiderman to the superheros group (but replaces any existing secondary group memberships).
+
+Manage Local Users and Groups 9:30 
+
+
+
+
+
+
+
 
