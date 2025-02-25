@@ -191,6 +191,8 @@ Go delete user, type userdel -r spiderman, r means to remove the user's home dir
 
 usermod -G superheros spiderman, -G adds the user spiderman to the superheros group (but replaces any existing secondary group memberships).
 
+To check type, ex. grep spiderman /etc/group
+
 Manage Local Users and Groups 9:30 
 
 
