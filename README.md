@@ -163,7 +163,7 @@ To search for a word whle not in the vi file, for example - type "grep lesson my
 
 To search for a word while in the vi file, for example - type "/lesson". This will highlight a word within the vi file that you are looking for.
 
-**User Account Management**
+**Manage Local Users and Groups: User Account Management**
 
 --Commands-- 
 
