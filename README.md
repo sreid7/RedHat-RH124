@@ -61,7 +61,7 @@ rmdir = allows you to delete a directory
 
  Root = (su -) you must become root to have permission to do all functions on linux
 
- Exit Root = simply type "exit" will bring tyou back the normal user account.
+ Exit Root = simply type "exit" will bring you back the normal user account.
 
  chgrp = change group to have access to a file or directory (ex. chgrp ricky reliable file)
 
