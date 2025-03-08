@@ -195,7 +195,9 @@ To check type, ex. grep spiderman /etc/group
 
 useradd -g superheros -s /bin/bash -c "ironman" -m -d /home/ironman ironman (all parameters).
 
-Manage Local Users and Groups 9:30 
+passwd ironman (to set passwords for users)
+
+Manage Local Users and Groups 14:37 
 
 
 
