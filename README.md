@@ -197,6 +197,10 @@ useradd -g superheros -s /bin/bash -c "ironman" -m -d /home/ironman ironman (all
 
 passwd ironman (to set passwords for users)
 
+The /etc/login.def File .The chage command -per user . Example: chage [-m mindays] [-M maxdays] [-d lastday] [-I inactive] [-E expiredate] [-W warndays] user
+
+File = /etc/login.def .PASS_MAX_DAYS 99999 . PASS_MIN_DAYS 0 . PASS_MIN_LEN 5 . PASS_WARN_AGE 7 
+
 Manage Local Users and Groups 14:37 
 
 
