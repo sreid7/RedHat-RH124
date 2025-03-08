@@ -199,9 +199,9 @@ passwd ironman (to set passwords for users)
 
 The /etc/login.defs File .The chage command -per user . Example: chage [-m mindays] [-M maxdays] [-d lastday] [-I inactive] [-E expiredate] [-W warndays] user
 
-File = /etc/login.defs .PASS_MAX_DAYS 99999 . PASS_MIN_DAYS 0 . PASS_MIN_LEN 5 . PASS_WARN_AGE 7 
+File = /etc/login.defs .PASS_MAX_DAYS 99999 . PASS_MIN_DAYS 0 . PASS_MIN_LEN 5 . PASS_WARN_AGE 7 (For all users)
 
-ex. chage -m 5 -M 90 -W 10 -I 3 babubutt
+ex. chage -m 5 -M 90 -W 10 -I 3 babubutt (For individual users)
 
 Manage Local Users and Groups 14:37 
 
