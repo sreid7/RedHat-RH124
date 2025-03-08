@@ -193,6 +193,8 @@ usermod -G superheros spiderman, -G adds the user spiderman to the superheros gr
 
 To check type, ex. grep spiderman /etc/group
 
+useradd -g superheros -s /bin/bash -c "ironman" -m -d /home/ironman ironman (all parameters).
+
 Manage Local Users and Groups 9:30 
 
 
