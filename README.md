@@ -203,6 +203,8 @@ File = /etc/login.defs .PASS_MAX_DAYS 99999 . PASS_MIN_DAYS 0 . PASS_MIN_LEN 5 .
 
 ex. chage -m 5 -M 90 -W 10 -I 3 babubutt (For individual users)
 
+To switch users: su - "username", (then enter password for the user), sudo (if can't become root), visudo (edits user permissions file: /etc/sudoers)
+
 Manage Local Users and Groups 14:37 
 
 
