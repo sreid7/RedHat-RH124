@@ -205,6 +205,8 @@ ex. chage -m 5 -M 90 -W 10 -I 3 babubutt (For individual users)
 
 To switch users: su - "username", (then enter password for the user), sudo (if can't become root), visudo (edits user permissions file: /etc/sudoers)
 
+In the visudo file, by default the wheel group has root permission to run commands. A user can be added to the wheel group by using the usermod command.
+
 Manage Local Users and Groups 14:37 
 
 
