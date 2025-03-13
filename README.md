@@ -213,10 +213,30 @@ Testing sudo. Ex. sudo dmidecode and enter password (this command should display
 
 Testing sudo. Ex. sudo fdisk -l (this command should display the size of the disk)
 
-Manage Local Users and Groups 14:37 
+**File Permissions**
+
+There are 3 types of permissions (r = read, w = write, and x = execute)
+
+-rwxrwxrwx (First three letters are for the user, second three are for the group, and the last three letters are for everyone that has access to the system).
+
+ls -l will display all permissions 
+
+chmod = this is the command to make changes to the permissions.
+
+Ex. ls -l jerry (to display a specific file and permissions)
+
+Ex. chmod g-w jerry (will remove write permission from the group level)
+
+Ex. chmod a-r jerry (will remove the permission from all user to read the jerry file)
+
+Ex. chmod u-w jerry (will remove the permission for the logged in user to write on the file)
+
+Ex. chmod u+rw jerry (will give permission to the logged in user to read and write the file)
+
+Ex. chmod g+rw jerry (will give group permission to read and write the file)
 
 
-
+**File permissions Lab - 10:32 Udemy
 
 
 
