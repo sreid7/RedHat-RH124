@@ -211,6 +211,8 @@ Ex. usermod aG- wheel sreid7
 
 Testing sudo. Ex. sudo dmidecode and enter password (this command should display system data)
 
+Testing sudo. Ex. sudo fdisk -l (this command should display the size of the disk)
+
 Manage Local Users and Groups 14:37 
 
 
