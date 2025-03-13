@@ -209,6 +209,8 @@ In the visudo file, by default the wheel group has root permission to run comman
 
 Ex. usermod aG- wheel sreid7
 
+Testing sudo. Ex. sudo dmidecode and enter password (this command should display system data)
+
 Manage Local Users and Groups 14:37 
 
 
