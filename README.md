@@ -236,6 +236,8 @@ Ex. chmod u+rw jerry (will give permission to the logged in user to read and wri
 Ex. chmod g+rw jerry (will give group permission to read and write the file)
 
 
+**14:43 User Account**
+
 **File permissions Lab - 10:32 Udemy
 
 
