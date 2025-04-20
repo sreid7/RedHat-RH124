@@ -240,6 +240,9 @@ Ex. chmod g+rw jerry (will give group permission to read and write the file)
 
 **File permissions Lab - 10:32 Udemy
 
+---------------------------------------------------
+
+
 **AI RHCSA Study**
 
  1. Create, Modify, and Delete Users
@@ -268,6 +271,13 @@ sudo userdel alice                   # Keeps home dir
 
 sudo userdel -r alice                # Deletes home dir
 
+**Login as a user**
+
+sudo useradd -m testuser
+
+sudo passwd testuser
+
+su - testuser
 
 
 
