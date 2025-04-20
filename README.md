@@ -245,7 +245,7 @@ Ex. chmod g+rw jerry (will give group permission to read and write the file)
 
 **AI RHCSA Study**
 
- 1. Create, Modify, and Delete Users
+🔹 1. Create, Modify, and Delete Users
 
 ✅ Create a user:
 
@@ -280,6 +280,18 @@ sudo passwd testuser
 su - testuser
 
 
+🔹 2. Create, Modify, and Delete Groups
 
+✅ Create a group:
+
+sudo groupadd devs
+
+✅ Modify a group name:
+
+sudo groupmod -n developers devs
+
+✅ Delete a group:
+
+sudo groupdel developers
 
  
