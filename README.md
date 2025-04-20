@@ -243,6 +243,7 @@ Ex. chmod g+rw jerry (will give group permission to read and write the file)
 **AI RHCSA Study**
 
  1. Create, Modify, and Delete Users
+
 ✅ Create a user:
 
 sudo useradd john
@@ -250,16 +251,21 @@ sudo useradd john
 ✅ Create a user with a home directory (default):
 
 sudo useradd -m alice
+
 ✅ Set a password:
 
 sudo passwd alice
+
 ✅ Modify a user:
 
 sudo usermod -c "Alice Smith" alice  # Add a comment
+
 sudo usermod -s /bin/bash alice      # Change shell
+
 ✅ Delete a user:
 
 sudo userdel alice                   # Keeps home dir
+
 sudo userdel -r alice                # Deletes home dir
 
 
